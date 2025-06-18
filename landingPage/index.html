@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Visualizer</h1>
+    <p>Understand the steps of sorting algorithms clearly with visual representations.</p>
+    <div class="dropdown-container">
+      <select id="algorithm">
+        <option value="">Select an sorting algorithm...</option>
+        <option value="selection">Selection Sort</option>
+        <option value="bubble">Bubble Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+      </select>
+      <button onclick="redirectToPage()">Visualize</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

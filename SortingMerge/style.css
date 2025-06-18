@@ -1,0 +1,78 @@
+body{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4); 
+}
+h1,b{
+    text-decoration: underline;
+}
+#start{
+    align-self: center;
+    border: 2px solid white;
+}
+#input{
+    border: 2px solid white;
+}
+#input:hover{
+    border: 2px solid rgb(247, 135, 230);
+    transform: scale(1.1);
+    margin-right: 10px;
+}
+#start:hover{
+    border: 2px solid rgb(247, 135, 230);
+    transform: scale(1.05);
+    margin-left: 2px;
+}
+.box{
+    margin-top: 30px;
+    height: 400px;
+    width: 60%;
+    background-color: aliceblue;
+    align-self: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.box:hover{
+    border: 2px solid rgb(247, 135, 230);
+    transform: scale(1.02);
+    margin: 10px 10px;
+}
+
+.bars{
+    background-color: black;
+    width: 7.5%;
+    border: 1px solid white;
+    /* margin-bottom: 0.5rem; */
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.container li{
+    font-size: 900;
+}
+ul{
+    align-self: center;
+}
+.red h3{
+    color: red;
+}
+.blue h3{
+    color: blue;
+}
+.yellow h3{
+    color: yellow;
+}
+.black h3{
+    color: black;
+}
+.gray h3{
+    color: gray;
+}
